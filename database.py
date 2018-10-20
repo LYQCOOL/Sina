@@ -5,7 +5,6 @@ import pymongo
 class MongoDB(object):
     def __init__(self):
         #self.__conn = pymongo.MongoClient('localhost', port=27017)
-        # self.__conn = pymongo.MongoClient('182.150.37.55', port=50070)
         self.__conn = pymongo.MongoClient('localhost', port=27001)
         db = self.__conn['news']
 
